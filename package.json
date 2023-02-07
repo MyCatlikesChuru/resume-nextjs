@@ -18,7 +18,7 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://mycatlikeschuru.github.io/",
+  "homepage": "https://mycatlikeschuru.github.io/resume-nextjs",
   "repository": {
     "type": "git",
     "url": "git+https://mycatlikeschuru.github.io/resume-nextjs.git"

@@ -13,6 +13,7 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content: '[백엔드]: Spring, SpringBoot, Mysql, Redis, AWS(S3,RDS,EC2)',
+          postImage: image1,
           weight: 'MEDIUM',
           descriptions: [
             { content: '회원도메인,공연도메인 댓글 API 기능구현' },
@@ -37,6 +38,7 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content: '[팀장, 백엔드]: Spring, SpringBoot, Mysql, Nginx, AWS(EC2)',
+          postImage: image2,
           weight: 'MEDIUM',
           descriptions: [
             { content: '프로젝트 개발 상황 관리' },

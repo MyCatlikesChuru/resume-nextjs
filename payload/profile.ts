@@ -1,6 +1,6 @@
 import { faBlog, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+// import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/leejaehyeok.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -34,6 +34,10 @@ const profile: IProfile.Payload = {
       icon: faBlog,
     },
     // {
+    //   link: 'https://www.facebook.com/iu.loen',
+    //   icon: faFacebook,
+    // },
+    // {
     //   title: 'YouTube',
     //   link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
     //   // icon: faRss,
@@ -41,7 +45,7 @@ const profile: IProfile.Payload = {
     // },
   ],
   notice: {
-    title: "👣 한걸음씩 나아가고있는 백엔드 개발자 이재혁입니다."
+    title: '👣 한걸음씩 나아가고있는 백엔드 개발자 이재혁입니다.',
     // icon: faBell,
   },
 };

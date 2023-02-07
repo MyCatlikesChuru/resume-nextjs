@@ -13,7 +13,7 @@ export declare namespace IRow {
     title?: string;
     subTitle?: string;
     descriptions?: Description[];
-    image?: string;
+    // image?: string;
   }
 
   /**

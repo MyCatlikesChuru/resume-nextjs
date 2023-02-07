@@ -3,10 +3,6 @@ import { ISkill } from '../component/skill/ISkill';
 const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
-    // {
-    //   title: 'Node.js',
-    //   level: 3,
-    // },
     {
       title: 'Java',
       level: 3,
@@ -47,18 +43,6 @@ const backend: ISkill.Skill = {
       title: 'Nginx',
       level: 1,
     },
-    // {
-    //   title: 'PHP',
-    //   level: 2,
-    // },
-    // {
-    //   title: 'Python',
-    //   level: 1,
-    // },
-    // {
-    //   title: 'C/C++',
-    //   level: 1,
-    // },
   ],
 };
 
@@ -84,27 +68,27 @@ const database: ISkill.Skill = {
   ],
 };
 
-const frontend: ISkill.Skill = {
-  category: 'Front-end',
-  items: [
-    {
-      title: 'Next.js',
-      level: 2,
-    },
-    {
-      title: 'React.js',
-      level: 2,
-    },
-    {
-      title: 'javascript',
-      level: 2,
-    },
-    {
-      title: 'HTML/CSS',
-      level: 2,
-    },
-  ],
-};
+// const frontend: ISkill.Skill = {
+//   category: 'Front-end',
+//   items: [
+//     {
+//       title: 'Next.js',
+//       level: 2,
+//     },
+//     {
+//       title: 'React.js',
+//       level: 2,
+//     },
+//     {
+//       title: 'javascript',
+//       level: 2,
+//     },
+//     {
+//       title: 'HTML/CSS',
+//       level: 2,
+//     },
+//   ],
+// };
 
 const etc: ISkill.Skill = {
   category: 'Etc',

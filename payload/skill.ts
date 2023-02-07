@@ -5,43 +5,43 @@ const backend: ISkill.Skill = {
   items: [
     {
       title: 'Java',
-      level: 3,
+      // level: 3,
     },
     {
       title: 'Gradle',
-      level: 3,
+      // level: 3,
     },
     {
       title: 'Spring Boot',
-      level: 3,
+      // level: 3,
     },
     {
       title: 'Spring MVC',
-      level: 3,
+      // level: 3,
     },
     {
       title: 'Spring Security',
-      level: 2,
+      // level: 2,
     },
     {
       title: 'Spring Data JPA',
-      level: 2,
+      // level: 2,
     },
     {
       title: 'AWS EC2',
-      level: 2,
+      // level: 2,
     },
     {
       title: 'Oracle Cloud Instance',
-      level: 1,
+      // level: 1,
     },
     {
       title: 'Querydsl',
-      level: 1,
+      // level: 1,
     },
     {
       title: 'Nginx',
-      level: 1,
+      // level: 1,
     },
   ],
 };
@@ -51,11 +51,11 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 3,
+      // level: 3,
     },
     {
       title: 'Redis',
-      level: 2,
+      // level: 2,
     },
     // {
     //   title: 'Oracle',

@@ -11,10 +11,10 @@ const education: IEducation.Payload = {
       endedAt: '2023-02',
     },
     {
-      title: '인전전자마이스터고등학교',
+      title: '인천전자마이스터고등학교',
       subTitle: '전자회로설계과 / 메카트로닉스(부전공)',
-      startedAt: '2007-03',
-      endedAt: '2010-02',
+      startedAt: '2011-03',
+      endedAt: '2014-02',
     },
   ],
 };

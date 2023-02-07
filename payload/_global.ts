@@ -3,7 +3,7 @@ import previewImage from '../asset/preview.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
 const title = '이재혁 이력서';
-const description = '이력서 입니다.';
+const description = '백엔드 개발자 지원';
 
 export const _global: IGlobal.Payload = {
   favicon,
@@ -17,8 +17,8 @@ export const _global: IGlobal.Payload = {
       images: [
         {
           url: previewImage,
-          width: 800,
-          height: 600,
+          width: 600,
+          height: 800,
           alt: 'OpenGraph Image Sample.png',
         },
       ],

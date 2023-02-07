@@ -3,30 +3,62 @@ import { ISkill } from '../component/skill/ISkill';
 const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
+    // {
+    //   title: 'Node.js',
+    //   level: 3,
+    // },
     {
-      title: 'Node.js',
+      title: 'Java',
       level: 3,
     },
     {
-      title: 'AWS',
+      title: 'Gradle',
       level: 3,
     },
     {
-      title: 'PHP',
+      title: 'Spring Boot',
+      level: 3,
+    },
+    {
+      title: 'Spring MVC',
+      level: 3,
+    },
+    {
+      title: 'Spring Security',
       level: 2,
     },
     {
-      title: 'Java',
+      title: 'Spring Data JPA',
+      level: 2,
+    },
+    {
+      title: 'AWS EC2',
+      level: 2,
+    },
+    {
+      title: 'Oracle Cloud Instance',
       level: 1,
     },
     {
-      title: 'Python',
+      title: 'Querydsl',
       level: 1,
     },
     {
-      title: 'C/C++',
+      title: 'Nginx',
       level: 1,
     },
+    // {
+    //   title: 'PHP',
+    //   level: 2,
+    // },
+    // {
+    //   title: 'Python',
+    //   level: 1,
+    // },
+    // {
+    //   title: 'C/C++',
+    //   level: 1,
+    // },
   ],
 };
 
@@ -38,17 +70,17 @@ const database: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Oracle',
-      level: 2,
-    },
-    {
       title: 'Redis',
       level: 2,
     },
-    {
-      title: 'MongoDB',
-      level: 1,
-    },
+    // {
+    //   title: 'Oracle',
+    //   level: 1,
+    // },
+    // {
+    //   title: 'MongoDB',
+    //   level: 1,
+    // },
   ],
 };
 
@@ -81,26 +113,23 @@ const etc: ISkill.Skill = {
       title: 'Ubuntu',
     },
     {
+      title: 'Git',
+    },
+    {
+      title: 'IntelliJ',
+    },
+    {
       title: 'Vim',
     },
     {
-      title: 'Security',
-    },
-    {
       title: 'VS Code',
-    },
-    {
-      title: 'Jira',
-    },
-    {
-      title: 'Confluence',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
+  skills: [backend, database, etc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 

@@ -35,6 +35,7 @@ export function CommonRows({
           ) : (
             ''
           )}
+          {right.image ? <img src={right.image}/> : ''}
         </Col>
       </Row>
     </div>

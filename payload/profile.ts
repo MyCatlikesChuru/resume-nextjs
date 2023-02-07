@@ -1,7 +1,7 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faBlog, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import image from '../asset/leejaehyeok.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -11,38 +11,38 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: '이재혁',
-    small: '(LI)',
+    small: '',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
-      link: '#',
+      title: 'dhfif718@gmail.com',
+      link: '',
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: '010-8033-5244',
       icon: faPhone,
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/MyCatlikesChuru',
+      link: 'https://github.com/MyCatlikesChuru',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
+      link: 'https://mycatlikeschuru.github.io',
+      icon: faBlog,
     },
-    {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
-    },
+    // {
+    //   title: 'YouTube',
+    //   link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
+    //   // icon: faRss,
+    //   icon: faYoutube,
+    // },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
+    title: "👣 한걸음씩 나아가고있는 백엔드 개발자 이재혁입니다."
+    // icon: faBell,
   },
 };
 

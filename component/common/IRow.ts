@@ -13,6 +13,7 @@ export declare namespace IRow {
     title?: string;
     subTitle?: string;
     descriptions?: Description[];
+    image?: string;
   }
 
   /**
@@ -27,7 +28,6 @@ export declare namespace IRow {
   export interface Description {
     /** ### 설명 본문 */
     content: string;
-
     /**
      * ### 폰트 두께 설정이 필요할 경우
      *

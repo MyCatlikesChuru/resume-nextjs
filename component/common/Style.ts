@@ -13,7 +13,7 @@ type TStyleKey =
 
 export const Style: Record<TStyleKey, CSSProperties> = {
   blue: {
-    color: '#3c78d8',
+    color: '#E69E21', // 3c78d8 -> 기존색상
   },
 
   gray: {

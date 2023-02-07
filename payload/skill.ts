@@ -35,14 +35,14 @@ const backend: ISkill.Skill = {
       title: 'Oracle Cloud Instance',
       // level: 1,
     },
-    {
-      title: 'Querydsl',
-      // level: 1,
-    },
-    {
-      title: 'Nginx',
-      // level: 1,
-    },
+    // {
+    //   title: 'Querydsl',
+    //   // level: 1,
+    // },
+    // {
+    //   title: 'Nginx',
+    //   // level: 1,
+    // },
   ],
 };
 
@@ -111,10 +111,25 @@ const etc: ISkill.Skill = {
   ],
 };
 
+const Studying: ISkill.Skill = {
+  category: 'Studying',
+  items: [
+    {
+      title: 'Querydsl',
+    },
+    // {
+    //   title: 'Nginx',
+    // },
+    {
+      title: 'Docker',
+    },
+  ],
+};
+
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  skills: [backend, database, etc, Studying],
+  // tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
 export default skill;

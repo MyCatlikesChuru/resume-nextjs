@@ -12,7 +12,7 @@ const etc: IEtc.Payload = {
     },
     {
       title: '인천 기능경기대회 수상',
-      subTitle: '메카트로닉스 금상',
+      subTitle: '메카트로닉스 부문 금상',
       startedAt: '2013-04',
     },
     {

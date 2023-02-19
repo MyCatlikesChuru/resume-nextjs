@@ -1,4 +1,4 @@
-import { faBlog } from '@fortawesome/free-solid-svg-icons';
+import { faBlog, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 // { faBlog , faEnvelope, faPhone }
 // import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -15,16 +15,16 @@ const profile: IProfile.Payload = {
     small: '',
   },
   contact: [
-    // {
-    //   title: 'dhfif718@gmail.com',
-    //   link: '',
-    //   icon: faEnvelope,
-    // },
-    // {
-    //   title: '010-8033-5244',
-    //   icon: faPhone,
-    //   badge: true,
-    // },
+    {
+      title: 'dhfif718@gmail.com',
+      link: '',
+      icon: faEnvelope,
+    },
+    {
+      title: '010-8033-5244',
+      icon: faPhone,
+      badge: true,
+    },
     {
       title: 'https://github.com/MyCatlikesChuru',
       link: 'https://github.com/MyCatlikesChuru',

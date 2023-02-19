@@ -17,7 +17,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: '회원도메인,공연도메인 댓글 API 구현' },
-            { content: '메인화면 날짜별,지역별 조회 API 구현(Query Methods 사용)' },
+            { content: '메인화면 날짜별,지역별 조회 API 구현(Spring data JPA 사용)' },
             { content: '카오맵 현재화면에 표현되는 좌표값 조회 API 구현(Querydsl 사용)' },
             { content: 'Spring Security와 JWT를 활용한 인증,인가 및 권한 설정작업' },
             { content: 'OAuth2.0 소셜로그인(구글,네이버,카카오) 구현' },

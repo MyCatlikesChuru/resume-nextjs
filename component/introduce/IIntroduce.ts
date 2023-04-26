@@ -1,4 +1,5 @@
 import { ICommon } from '../common/ICommon';
+import { IRow } from '../common/IRow';
 
 export declare namespace IIntroduce {
   /**
@@ -14,7 +15,7 @@ export declare namespace IIntroduce {
      *
      * @description `string` 배열이다. 요소 하나가 하나의 `<p>` 태그가 된다.
      */
-    contents: string[];
+    contents: IRow.Description[];
 
     /**
      * ### 하단 싸인

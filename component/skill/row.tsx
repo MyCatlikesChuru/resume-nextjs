@@ -62,6 +62,10 @@ function createCalculatedSkillItems(items: ISkill.Item[]) {
           </Col>
         );
       })}
+      <br></br>
+      <br></br> 
+      <br></br>
+      <br></br>
     </Row>
   );
 }

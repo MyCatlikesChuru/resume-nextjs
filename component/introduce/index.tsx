@@ -35,8 +35,14 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
         <Col sm={12} md={9}>
           {payload.contents.map((content, index) => (
             <span key={index.toString()}>
-              {content}
-              <br />
+              {content.content}
+              {content.postImage == null ? null : (
+                <img
+                  src={content.postImage}
+                  style={{ margin: '10px', marginBottom: '30px', width: '100%' }}
+                />
+              )}
+              <br/>
             </span>
           ))}
           <p className="text-right">

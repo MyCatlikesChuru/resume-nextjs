@@ -31,14 +31,14 @@ const backend: ISkill.Skill = {
       title: 'AWS EC2',
       // level: 2,
     },
-    {
-      title: 'Oracle Cloud Instance',
-      // level: 1,
-    },
     // {
-    //   title: 'Querydsl',
+    //   title: 'Oracle Cloud Instance',
     //   // level: 1,
     // },
+    {
+      title: 'Querydsl',
+      // level: 1,
+    },
     // {
     //   title: 'Nginx',
     //   // level: 1,
@@ -102,33 +102,33 @@ const etc: ISkill.Skill = {
     {
       title: 'IntelliJ',
     },
-    {
-      title: 'Vim',
-    },
-    {
-      title: 'VS Code',
-    },
+    // {
+    //   title: 'Vim',
+    // },
+    // {
+    //   title: 'VS Code',
+    // },
   ],
 };
 
-const Studying: ISkill.Skill = {
-  category: 'Studying',
-  items: [
-    {
-      title: 'Querydsl',
-    },
-    // {
-    //   title: 'Nginx',
-    // },
-    {
-      title: 'Docker',
-    },
-  ],
-};
+// const Studying: ISkill.Skill = {
+//   category: 'Studying',
+//   items: [
+//     {
+//       title: 'Querydsl',
+//     },
+//     // {
+//     //   title: 'Nginx',
+//     // },
+//     {
+//       title: 'Docker',
+//     },
+//   ],
+// };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, etc, Studying],
+  skills: [backend, database, etc],
   // tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 

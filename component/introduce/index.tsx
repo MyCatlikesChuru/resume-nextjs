@@ -39,10 +39,11 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
               {content.postImage == null ? null : (
                 <img
                   src={content.postImage}
+                  alt=""
                   style={{ margin: '10px', marginBottom: '30px', width: '100%' }}
                 />
               )}
-              <br/>
+              <br />
             </span>
           ))}
           <p className="text-right">

@@ -1,7 +1,7 @@
 import { IProject } from '../component/project/IProject';
 import image1 from '../asset/stack1.png';
 import image2 from '../asset/stack2.png';
-import image3 from '../asset/stack3.png';
+// import image3 from '../asset/stack3.png';
 
 const project: IProject.Payload = {
   disable: false,
@@ -19,13 +19,14 @@ const project: IProject.Payload = {
           descriptions: [
             { content: 'TDD를 이용한 개발 방법론 적용' },
             { content: '기획 및 와이어프레임 초안 작성 및 MVP설정' },
-            { 
-              content: '[노션링크]:', 
-              postHref: 'https://www.notion.so/Travel-With-Me-bf9d950818d44c98b7be277464a8bdf8?pvs=4' 
+            {
+              content: '[노션링크]:',
+              postHref:
+                'https://www.notion.so/Travel-With-Me-bf9d950818d44c98b7be277464a8bdf8?pvs=4',
             },
-            { 
-              content: '[깃헙레포]:', 
-              postHref: 'https://github.com/Travel-WithMe/TravelWithMe-sever' 
+            {
+              content: '[깃헙레포]:',
+              postHref: 'https://github.com/Travel-WithMe/TravelWithMe-sever',
             },
           ],
         },
@@ -39,7 +40,8 @@ const project: IProject.Payload = {
       where: '프로젝트 (6인/4주)',
       descriptions: [
         {
-          content: '[백엔드]: Spring Web, Spring Security, Spring data JPA, Mysql, Redis, AWS(S3,RDS,EC2)',
+          content:
+            '[백엔드]: Spring Web, Spring Security, Spring data JPA, Mysql, Redis, AWS(S3,RDS,EC2)',
           postImage: image1,
           weight: 'MEDIUM',
           descriptions: [
@@ -50,17 +52,17 @@ const project: IProject.Payload = {
             { content: 'Redis 캐쉬서버를 이용한 JWT Refresh Token 관리 프로그램 구현' },
             { content: 'AWS S3 버킷을 이용한 이미지 업로드 프로그램 구현 및 추상화' },
             { content: '태그 기능 API 추가 및 조회관련 GraphQL 적용' },
-            { 
-              content: '[배포링크]:', 
-              postHref: 'http://indiego.site' 
+            {
+              content: '[배포링크]:',
+              postHref: 'http://indiego.site',
             },
-            { 
+            {
               content: '[노션링크]:',
-              postHref: 'https://www.notion.so/indiego-db411e7d122a44df9db815e63f121d0f?pvs=4' 
+              postHref: 'https://www.notion.so/indiego-db411e7d122a44df9db815e63f121d0f?pvs=4',
             },
-            { 
-              content: '[깃헙레포]:', 
-              postHref: 'https://github.com/MyCatlikesChuru/indiego' 
+            {
+              content: '[깃헙레포]:',
+              postHref: 'https://github.com/MyCatlikesChuru/indiego',
             },
           ],
         },
@@ -74,7 +76,8 @@ const project: IProject.Payload = {
       where: '클론 코딩 프로젝트 (6인/2주)',
       descriptions: [
         {
-          content: '[팀장, 백엔드]: Spring Web, Spring Security, Spring data JPA, Mysql, Nginx, AWS(EC2)',
+          content:
+            '[팀장, 백엔드]: Spring Web, Spring Security, Spring data JPA, Mysql, Nginx, AWS(EC2)',
           postImage: image2,
           weight: 'MEDIUM',
           descriptions: [
@@ -83,9 +86,9 @@ const project: IProject.Payload = {
             { content: 'OAuth2.0 소셜로그인(구글) 구현' },
             { content: '질문,답글 등록,조회,삭제,투표 API 기능구현' },
             { content: '수동 배포환경 구축(EC2,Mysql,Nginx)' },
-            { 
-              content: '[배포링크]:', 
-              postHref: 'http://stackoverflowpre.p-e.kr' 
+            {
+              content: '[배포링크]:',
+              postHref: 'http://stackoverflowpre.p-e.kr',
             },
             {
               content: '[깃헙레포]:',

@@ -6,7 +6,11 @@ const introduce: IIntroduce.Payload = {
   contents: [
     {
       content:
-        'JAVA & Spring Framework를 다루고 있습니다. 웹 3계층 구조의 Spring Framework를 이용한 애플리케이션 개발, Spring Data JPA, Querydsl를 활용한 쿼리문 작성이 가능하고 주로 MySQL 데이터베이스에 접근하여 서비스로직에서 처리하는 로직 구현을 경험해보았습니다. REST API를 이용한 통신을 주로 사용하였고, GraphQL을 사용한 경험이 있습니다. 빈번히 업데이트되어지는 정보의 Query를 줄이기 위해 Redis 캐쉬서버를 도입해 적용해본 경험도 있습니다. Spring Security & JWT를 이용한 인증,권한 부여와 OAuth2.0 소셜로그인을 구현해보았고, 여러가지 소셜로그인을 사용할 수 있도록 확장에 용이하도록 프로그램을 작성한 경험이 있습니다.',
+        'JAVA & Spring Framework를 다루고 있습니다. 웹 3계층 구조의 Spring Framework를 이용한 애플리케이션 개발 및',
+    },
+    {
+      content:
+        'REST API를 이용한 통신을 주로 사용하였고, Spring Data JPA, Querydsl 라이브러리를 활용한 쿼리문 작성이 가능하고 주로 MySQL 데이터베이스에 접근하여 서비스로직에서 처리하는 로직 구현을 경험해보았습니다. 빈번히 업데이트되어지는 정보의 Query를 줄이기 위해 Redis 캐쉬서버를 도입해 적용해본 경험도 있습니다. Spring Security & JWT를 이용한 인증,권한 부여와 OAuth2.0 소셜로그인을 구현해보았고, 여러가지 소셜로그인을 사용할 수 있도록 확장에 용이하도록 프로그램을 작성한 경험이 있습니다.',
     },
     {
       content: '',

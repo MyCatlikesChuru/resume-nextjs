@@ -24,7 +24,7 @@ const project: IProject.Payload = {
               descriptions: [
                 {
                   content: '메서드의 재활용성을 높이기위한 Test 코드 리펙토링',
-                  href: 'https://mycatlikeschuru.github.io/til/2022/11/25/til.html',
+                  href: 'https://mycatlikeschuru.github.io/java/2023/04/12/java-generic.html',
                 },
                 {
                   content: 'MockMvc ResultActions 응닫객체 한글깨짐 에러핸들링 블로깅',

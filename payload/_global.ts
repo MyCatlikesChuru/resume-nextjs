@@ -3,7 +3,7 @@ import previewImage from '../asset/preview.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
 const title = '이재혁 이력서';
-const description = '백엔드 개발자 지원';
+const description = '자동화 엔지니어 (PLC Enginner)d';
 
 export const _global: IGlobal.Payload = {
   favicon,

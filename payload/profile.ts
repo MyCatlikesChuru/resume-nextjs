@@ -16,12 +16,12 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'dhfif718@gmail.com',
+      title: 'dhfif718@naver.com',
       link: '',
       icon: faEnvelope,
     },
     {
-      title: '010-8033-5244',
+      title: '+82 010-8033-5244',
       icon: faPhone,
       badge: true,
     },
@@ -29,6 +29,10 @@ const profile: IProfile.Payload = {
       title: 'https://github.com/MyCatlikesChuru',
       link: 'https://github.com/MyCatlikesChuru',
       icon: faGithub,
+    },
+    {
+      link: 'https://blog.naver.com/dhfif718',
+      icon: faBlog,
     },
     {
       link: 'https://mycatlikeschuru.github.io',

@@ -50,7 +50,7 @@ const profile: IProfile.Payload = {
     // },
   ],
   notice: {
-    title: '👣 한걸음씩 나아가고있는 백엔드 주니어 개발자입니다.',
+    title: '👣 한걸음씩 나아가고있는 PLC Engineer 입니다.',
     // icon: faBell,
   },
 };

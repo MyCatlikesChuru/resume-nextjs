@@ -79,7 +79,7 @@ const database: ISkill.Skill = {
     },
     {
       title: 'Mx Componet V5',
-      level: 1.5,
+      level: 1,
     },
     {
       title: 'Mx Sheet',

@@ -5,32 +5,25 @@ const introduce: IIntroduce.Payload = {
   disable: false,
   contents: [
     {
-      content:
-        'D',
+      content: 'D',
     },
     {
-      content: 
-        '',
+      content: '',
     },
     {
-      content: 
-        '',
+      content: '',
     },
     {
-      content: 
-        '',
+      content: '',
     },
     {
-      content:
-        '• ',
+      content: '• ',
     },
     {
-      content:
-        '• ',
+      content: '• ',
     },
     {
-      content:
-        '• ',
+      content: '• ',
       // postHref: 'https://ghchart.rshah.org/219138/MyCatlikesChuru',
       // postImage: 'https://ghchart.rshah.org/219138/MyCatlikesChuru',
     },

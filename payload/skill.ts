@@ -27,7 +27,7 @@ const backend: ISkill.Skill = {
       title: 'AD/DA 제어',
       level: 3,
     },
-        {
+    {
       title: 'Serial 통신 (Q/RJ71C24N)',
       level: 3,
     },

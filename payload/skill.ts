@@ -1,70 +1,94 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const backend: ISkill.Skill = {
-  category: 'Back-end',
+  category: 'Mitsubishi PLC',
   items: [
     {
-      title: 'Java',
-      // level: 3,
+      title: 'QCPU',
+      level: 3,
     },
     {
-      title: 'Gradle',
-      // level: 3,
+      title: 'RCPU',
+      level: 3,
     },
     {
-      title: 'Spring Boot',
-      // level: 3,
+      title: 'Ethernet (Q/RJ71E71-100)',
+      level: 3,
     },
     {
-      title: 'Spring MVC',
-      // level: 3,
+      title: '서보 제어 (Q/RD77MS4~16)',
+      level: 3,
     },
     {
-      title: 'Spring Security',
-      // level: 2,
+      title: 'CC-LINK 제어',
+      level: 3,
     },
     {
-      title: 'Spring Data JPA',
-      // level: 2,
+      title: 'AD/DA 제어',
+      level: 3,
+    },
+        {
+      title: 'Serial 통신 (Q/RJ71C24N)',
+      level: 3,
     },
     {
-      title: 'AWS EC2',
-      // level: 2,
+      title: 'CC-LINK IE NETWORK (Q/RJ71GP21-SX)',
+      level: 3,
     },
-    // {
-    //   title: 'Oracle Cloud Instance',
-    //   // level: 1,
-    // },
     {
-      title: 'Querydsl',
-      // level: 1,
+      title: 'Motion CPU (R32MTCPU)',
+      level: 2,
     },
-    // {
-    //   title: 'Nginx',
-    //   // level: 1,
-    // },
   ],
 };
 
 const database: ISkill.Skill = {
-  category: 'Database',
+  category: 'Tool',
   items: [
     {
-      title: 'MySQL',
-      // level: 3,
+      title: 'Gx Developer',
+      level: 3,
     },
     {
-      title: 'Redis',
-      // level: 2,
+      title: 'Gx Works2',
+      level: 3,
     },
-    // {
-    //   title: 'Oracle',
-    //   level: 1,
-    // },
-    // {
-    //   title: 'MongoDB',
-    //   level: 1,
-    // },
+    {
+      title: 'Gx Works3',
+      level: 3,
+    },
+    {
+      title: 'GT Designer3',
+      level: 3,
+    },
+    {
+      title: 'Gx LogViewer',
+      level: 3,
+    },
+    {
+      title: 'Logging Tool',
+      level: 3,
+    },
+    {
+      title: 'MR Configurator2',
+      level: 3,
+    },
+    {
+      title: 'MT Developer2',
+      level: 2,
+    },
+    {
+      title: 'Mx Componet V5',
+      level: 1.5,
+    },
+    {
+      title: 'Mx Sheet',
+      level: 1,
+    },
+    {
+      title: 'NE1A_OMRON',
+      level: 1,
+    },
   ],
 };
 

@@ -4,39 +4,39 @@ const backend: ISkill.Skill = {
   category: 'Mitsubishi PLC',
   items: [
     {
-      title: 'QCPU',
+      title: 'QCPU 제어',
       level: 3,
     },
     {
-      title: 'RCPU',
+      title: 'RCPU 제어',
       level: 3,
     },
     {
-      title: 'Ethernet (Q/RJ71E71-100)',
+      title: 'Ethernet 제어 (Q/RJ71E71-100)',
       level: 3,
     },
     {
-      title: '서보 제어 (Q/RD77MS4~16)',
+      title: 'Servo 제어 (Q/RD77MS4~16)',
       level: 3,
     },
     {
-      title: 'CC-LINK 제어',
+      title: 'CC-Link 제어 (Q/RJ61BT11N)',
       level: 3,
     },
     {
-      title: 'AD/DA 제어',
+      title: 'AD/DA 제어 (Q/R68ADV,DAV)',
       level: 3,
     },
     {
-      title: 'Serial 통신 (Q/RJ71C24N)',
+      title: 'Serial 통신 제어 (Q/RJ71C24N)',
       level: 3,
     },
     {
-      title: 'CC-LINK IE NETWORK (Q/RJ71GP21-SX)',
+      title: 'CC-Link IE 네트워크 제어 (Q/RJ71GP21-SX)',
       level: 3,
     },
     {
-      title: 'Motion CPU (R32MTCPU)',
+      title: 'Motion CPU 제어 (R32MTCPU)',
       level: 2,
     },
   ],
@@ -78,6 +78,10 @@ const database: ISkill.Skill = {
       level: 2,
     },
     {
+      title: 'GP-Pro EX',
+      level: 2,
+    },
+    {
       title: 'Mx Componet V5',
       level: 1,
     },
@@ -89,71 +93,43 @@ const database: ISkill.Skill = {
       title: 'NE1A_OMRON',
       level: 1,
     },
+    {
+      title: 'M2I',
+      level: 1,
+    },
   ],
 };
-
-// const frontend: ISkill.Skill = {
-//   category: 'Front-end',
-//   items: [
-//     {
-//       title: 'Next.js',
-//       level: 2,
-//     },
-//     {
-//       title: 'React.js',
-//       level: 2,
-//     },
-//     {
-//       title: 'javascript',
-//       level: 2,
-//     },
-//     {
-//       title: 'HTML/CSS',
-//       level: 2,
-//     },
-//   ],
-// };
 
 const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
-      title: 'Ubuntu',
+      title: 'Notion',
+      level: 3,
     },
     {
       title: 'Git',
+      level: 2,
     },
     {
-      title: 'IntelliJ',
+      title: 'Excel',
+      level: 2,
     },
-    // {
-    //   title: 'Vim',
-    // },
-    // {
-    //   title: 'VS Code',
-    // },
+    {
+      title: 'Power Point',
+      level: 2,
+    },
+    {
+      title: 'Linux',
+      level: 1,
+    },
   ],
 };
-
-// const Studying: ISkill.Skill = {
-//   category: 'Studying',
-//   items: [
-//     {
-//       title: 'Querydsl',
-//     },
-//     // {
-//     //   title: 'Nginx',
-//     // },
-//     {
-//       title: 'Docker',
-//     },
-//   ],
-// };
 
 const skill: ISkill.Payload = {
   disable: false,
   skills: [backend, database, etc],
-  // tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  tooltip: '1: LOW\n2: MID\n3: HIGH',
 };
 
 export default skill;

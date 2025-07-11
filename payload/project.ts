@@ -1,70 +1,332 @@
 import { IProject } from '../component/project/IProject';
-import image1 from '../asset/stack1.png';
+// import image1 from '../asset/stack1.png';
 // import image2 from '../asset/stack2.png';
 // import image3 from '../asset/stack3.png';
 
 const project: IProject.Payload = {
   disable: false,
   list: [
+    // ***************************************************
     {
-      title: 'Travel With Me',
-      startedAt: '2023-03',
-      // endedAt: '2023-02',
-      where: '소셜 미디어를 담은 여행 동행모집 서비스 (프론트엔드 2명 / 백엔드 2명)',
+      title: 'OLED E4-1 / LG Dipslay / 한국 파주',
+      startedAt: '2014-01',
+      endedAt: '2016-01',
+      where: '소형~대형 In-line Glass OLED 증착 공정 PLC ,HMI 개발 보조 업무 진행.',
       descriptions: [
         {
-          content: '백엔드',
+          content: 'PLC, HMI 설계',
           // postImage: image3,
           weight: 'MEDIUM',
           descriptions: [
-            { content: '기획 및 와이어프레임 초안 작성 및 MVP 설정' },
+            { content: 'GX QP Configurator & QD75MH4를 활용한 Servo Motor 프로그램 트러블 슈팅' },
             {
               content:
-                'TDD를 이용한 개발 방법론 적용, Test Code 재활용성을 위한 추상화 클래스분리 초안 작성',
-              descriptions: [
-                {
-                  content: '메서드의 재활용성을 높이기위한 Test 코드 리펙토링',
-                  href: 'https://mycatlikeschuru.github.io/java/2023/04/12/java-generic.html',
-                },
-                {
-                  content: 'MockMvc ResultActions 응닫객체 한글깨짐 에러핸들링 블로깅',
-                  href:
-                    'https://mycatlikeschuru.github.io/junit5/2023/04/12/junit5-koreabroken.html',
-                },
-              ],
+                '진공제어 프로그램 트러블 슈팅 (Dry,Cryo Pump,PSG500,BPG400 / ATM-LVAC-HVAC제어)',
             },
-            {
-              content: 'CI/CD 담당 : AWS EC2, AWS S3, AWS Code Deploy, Git Actions',
-              descriptions: [
-                {
-                  content: 'AWS Code Deploy AccessDeniendException 에러 핸들링 블로깅',
-                  href: 'https://mycatlikeschuru.github.io/ci/cd/2023/05/15/cicd-codedeploy.html',
-                },
-                {
-                  content: 'Git Actions Submodule yaml 에러 핸들링 블로깅',
-                  href: 'https://mycatlikeschuru.github.io/ci/cd/2023/05/11/cicd-gitactions.html',
-                },
-              ],
-            },
-            { content: '여행 동행모집글, 매칭 관리 API 및 서비스 로직 작성' },
-            {
-              content:
-                '[기술스택]: Spring Web, Spring Security, Spring data JPA, Querydsl, Mysql, Redis, Junit 5, AWS(EC2,RDS,S3,Code Deploy), Git Actions',
-            },
-            {
-              content: '[노션링크]:',
-              postHref:
-                'https://www.notion.so/Travel-With-Me-bf9d950818d44c98b7be277464a8bdf8?pvs=4',
-            },
-            {
-              content: '[깃헙레포]:',
-              postHref: 'https://github.com/Travel-WithMe/TravelWithMe-sever',
-            },
+            { content: 'MES 사양 분석 및 프로그램 작성 후 시운전 테스트(TPD,APD,Recipe,RMS 등)' },
+          ],
+        },
+        {
+          content: '설비 SET-UP 및 유지보수',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '전기 입출력 I/O, AD, DA 체크 업무 진행' },
+            { content: '단동 운전, 공운전, 연동 운전 검증 업무 진행' },
+            { content: '고객사의 요청에따른 PLC, HMI 변경작업 및 Punch List 해결 업무 진행' },
           ],
         },
       ],
       // image: image3,
     },
+
+    // ***************************************************
+    {
+      title: 'OLED E4-2 / LG Dipslay / 한국 파주',
+      startedAt: '2016-01',
+      endedAt: '2016-11',
+      where: '소형~대형 In-line Glass OLED 증착 공정 2호기 추가 증설',
+      descriptions: [
+        {
+          content: 'PLC, HMI 설계',
+          // postImage: image3,
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '증착 설비 Power Heating 시퀀스 프로그램 개발 / PID 제어계활용(Yamadake)' },
+            {
+              content: '물류반송 챔버 단동, 자동 프로그램, 상하류 연동 I/F 프로그램 개발 및 테스트',
+            },
+            { content: 'Eternet을 활용한 VISION I/F 프로그램 개발 및 테스트 ' },
+            { content: 'Serial 통신을 활용한 온도모듈 제어 프로그램 개발 및 테스트' },
+          ],
+        },
+        {
+          content: '설비 SET-UP 및 유지보수',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '전기 입출력 I/O, AD, DA 체크 업무 진행' },
+            { content: '단동 운전, 공운전, 연동 운전 검증 업무 진행' },
+            { content: '고객사의 요청에따른 PLC, HMI 변경작업 및 Punch List 해결 업무 진행' },
+            { content: '고객사 HMI Operation 교육 업무 진행' },
+          ],
+        },
+      ],
+      // image: image3,
+    },
+
+    // ***************************************************
+    {
+      title: 'OLED 55L / LG Dipslay / 한국 구미',
+      startedAt: '2016-11',
+      endedAt: '2017-09',
+      where: '55인치 대형 In-line Glass OLED 증착 공정 PLC ,HMI 개발',
+      descriptions: [
+        {
+          content: 'PLC, HMI 설계',
+          // postImage: image3,
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '원가절감을 위한 PLC,HMI 개수 축소 및 프로그램 전체 변경 작업' },
+            { content: '증착 설비 Power Heating 시퀀스 프로그램 개발 / PID 제어계활용(Yamadake)' },
+            { content: 'MES 사양 분석 및 프로그램 작성 후 시운전 테스트(TPD,APD,Recipe,RMS 등)' },
+            { content: 'Serial 통신을 활용한 Barcode 프로그램 개발 및 테스트' },
+          ],
+        },
+        {
+          content: '설비 SET-UP 및 유지보수',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '전기 입출력 I/O, AD, DA 체크 업무 진행' },
+            { content: '단동 운전, 공운전, 연동 운전 검증 업무 진행' },
+            { content: '고객사의 요청에따른 PLC, HMI 변경작업 및 Punch List 해결 업무 진행' },
+            { content: '고객사 HMI Operation 교육 업무 진행' },
+          ],
+        },
+      ],
+      // image: image3,
+    },
+
+    // ***************************************************
+    {
+      title: '86BH Cluster OLED / BOE / 중국 허페이',
+      startedAt: '2017-09',
+      endedAt: '2018-08',
+      where: '86인치 대형 Cluster Glass OLED 증착 공정 PLC ,HMI 개발',
+      descriptions: [
+        {
+          content: 'PLC, HMI 설계',
+          // postImage: image3,
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '산쿄社 직교 Robot I/F, 시퀀스 프로그램 개발 및 제어 안전 수립' },
+            {
+              content:
+                'QD77MS16를 활용한 Servo Motor 동기제어 및 보간제어를 활용한 프로그램 개발 및 테스트',
+            },
+            { content: 'Nikkidenso DD Motor를 활용한 증착 시퀀스 개발 및 테스트' },
+            { content: '증착 설비 Power Heating 시퀀스 프로그램 개발 / PID 제어계활용(Yamadake)' },
+            { content: '가상 시운전 테스트 프로그램 개발하여 업무 환경 개선' },
+          ],
+        },
+        {
+          content: '설비 SET-UP 및 유지보수',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '전기 입출력 I/O, AD, DA 체크 업무 진행' },
+            { content: '단동 운전, 공운전, 연동 운전 검증 업무 진행' },
+            { content: '고객사의 요청에따른 PLC, HMI 변경작업 및 트러블 슈팅 해결 업무 진행' },
+            { content: '고객사 HMI Operation 교육 업무 진행' },
+          ],
+        },
+      ],
+      // image: image3,
+    },
+
+    // ***************************************************
+    {
+      title: 'ICCU,EV,RG3 / Hyundai Mobis / 한국 대구',
+      startedAt: '2020-03',
+      endedAt: '2020-11',
+      where: 'OBC 전력변환장치 조립라인 PLC & HMI 신규 개발',
+      descriptions: [
+        {
+          content: 'PLC, HMI 설계',
+          // postImage: image3,
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'QD77MS4를 활용한 써멀그리스, 실란트 연속 궤적 도포 프로그램 개발' },
+            { content: 'RFID Tag 시스템을 통한 상위 정보(MES) 관리 프로그램 개발' },
+            {
+              content:
+                '물류 Convayer 반송 프로그램, 너트러너를 활용한 조립공정 시퀀스 제어 프로그램 개발',
+            },
+            { content: 'Barcode, Printer Serial 통신 프로그램 작성 및 테스트' },
+          ],
+        },
+        {
+          content: '설비 SET-UP 및 유지보수',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '전기 입출력 I/O, AD, DA 체크 업무 진행' },
+            { content: '단동 운전, 공운전, 연동 운전 검증 업무 진행' },
+            { content: '고객사의 요청에따른 PLC, HMI 변경작업 및 트러블 슈팅 해결 업무 진행' },
+            { content: '고객사 HMI Operation 교육 업무 진행' },
+          ],
+        },
+      ],
+      // image: image3,
+    },
+
+    // ***************************************************
+    {
+      title: '양음극 Package / LG Energy Solution / 미국 미시간주 홀랜드',
+      startedAt: '2020-11',
+      endedAt: '2021-02',
+      where: 'Package 설비 양산 제어 대응 / 생산가동 이슈 및 개선 사항 처리 대응',
+      descriptions: [
+        {
+          content: '제어 양산 대응',
+          // postImage: image3,
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'Daily Meeting을 통한 생산가동 라인의 고객사 문의 개선건 관련 프로그램 및 UI 추가 작업',
+            },
+            { content: '음극,양극 Tape 부착 정밀 Vision 측정 공정 추가 프로그램 작업' },
+            { content: '제어관련 트러블 슈팅 대응 및 Operator 지원' },
+          ],
+        },
+      ],
+      // image: image3,
+    },
+
+    // ***************************************************
+    {
+      title: 'Mylar Tape 부착기 / LG Display / 한국 구미',
+      startedAt: '2021-02',
+      endedAt: '2021-10',
+      where: 'Macbook 14,16인치 판넬 테이프 부착설비 PLC & HMI 설비 신규 개발',
+      descriptions: [
+        {
+          content: 'PLC, HMI 설계',
+          // postImage: image3,
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'QD77MS16 120축 Servo Motor 제어 프로그램 작성 및 테스트 (원점,단동,자동)' },
+            {
+              content:
+                'LS DD Motor 프로그램 및 튜닝, Barcode 및 Loadcell Serial 통신 프로그램 작성',
+            },
+            { content: 'Plasma Unit 제어를 위한 Modbus TCP Ethernet 통신 프로 그램 작성' },
+            { content: 'MES 제어 ECS 사양 프로그램 작성 및 인수인계' },
+          ],
+        },
+        {
+          content: '설비 SET-UP 및 유지보수',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '전기 입출력 I/O, AD, DA 체크 업무 진행' },
+            { content: '단동 운전, 공운전, 연동 운전 검증 업무 진행' },
+            { content: '고객사의 요청에따른 PLC, HMI 변경작업 및 트러블 슈팅 해결 업무 진행' },
+            { content: '고객사 HMI Operation 교육 업무 진행' },
+          ],
+        },
+      ],
+      // image: image3,
+    },
+
+    // ***************************************************
+    {
+      title: 'CELL03 / Doosan Fuel Cell / 한국 익산',
+      startedAt: '2021-02',
+      endedAt: '2021-10',
+      where: '두산 퓨어셀 수소 CELL 재도포, 반송, 적재 공정 PLC ,HMI 개발 업무 진행.',
+      descriptions: [
+        {
+          content: 'PLC, HMI 설계',
+          // postImage: image3,
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'QJ71MT91 통신을 활용한 두산로보틱스社 다축 로봇 제어 (Vision 측정 미도포 구간 정밀 재도포 공정)',
+            },
+            {
+              content:
+                'LS Inverter 70ea Cell 동시 물류 반송 제어 프로그래밍 작성 및 데이터 관리 업무 진행',
+            },
+            { content: 'CELL 1000ea 적재 유닛 데이터 관리 및 시퀀스 프로그램 작성 및 테스트' },
+            { content: 'MES 제어 ECS 사양 프로그램 작성 및 인수인계' },
+          ],
+        },
+        {
+          content: '설비 SET-UP 및 유지보수',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '전기 입출력 I/O, AD, DA 체크 업무 진행' },
+            { content: '단동 운전, 공운전, 연동 운전 검증 업무 진행' },
+            { content: '고객사의 요청에따른 PLC, HMI 변경작업 및 트러블 슈팅 해결 업무 진행' },
+            { content: '고객사 HMI Operation 교육 업무 진행' },
+          ],
+        },
+      ],
+      // image: image3,
+    },
+
+    // ***************************************************
+    {
+      title: '중대형 Z-Stack / Samsung SDI / 미국 인디애나주 코코모',
+      startedAt: '2023-08',
+      endedAt: '2025-07',
+      where: '원통형릴 양음극 극판 노칭&컷팅, Z Stacking, 바인딩 PLC ,HMI 개발 업무 진행.',
+      descriptions: [
+        {
+          content: 'PLC, HMI 설계',
+          // postImage: image3,
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content: '설비 內 기기 셋팅 및 프로그램 작업',
+              descriptions: [
+                { content: 'EL EPC 셋팅' },
+                { content: 'Becker Ring Blow 셋팅' },
+                { content: 'Keyence BCR SR-1000 셋팅' },
+                { content: 'Keyence GT2-70 두께감지 셋팅' },
+                { content: 'CAS CI150 무게감지 셋팅' },
+                { content: 'SICK OD2 거리감지 셋팅' },
+                { content: 'Weidmüller AD/DA 셋팅' },
+              ],
+            },
+
+            {
+              content: '원통형 Reel 0.5s Tact-time Feeding & Cutting & Press 프로그램 설계',
+              descriptions: [
+                { content: 'R32MTCPU Motion CPU를 통한 작성 및 테스트' },
+                { content: 'Reel 반경센서, 댄서를 활용한 Feeding 시 보정치 계산' },
+                { content: 'Feeding, Cutting, Press 속도 연산' },
+                { content: 'NG 극판 데이터 트래킹, 상위보고, CASE별 NG 배출 시퀀스 프로그램 작성' },
+                { content: '상부,하부 Reel Auto Change 프로그램 시퀀스 개발' },
+              ],
+            },
+            { content: 'Vision, PMAC(Z-Stack Unit) 설비 운용 I/F 프로그램 개선 개발건 추가 작업' },
+            { content: '(바인딩 설비)J/R 본딩, 테이핑 설비 시퀀스 프로그램 개발' },
+          ],
+        },
+        {
+          content: '설비 SET-UP 및 유지보수',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '국내&미주 설비 108대 SET-UP업무 진행 / 설비 1대당 PLC 3ea, Touch 5ea' },
+            { content: '전기 입출력 I/O, AD, DA 체크 업무 진행' },
+            { content: '단동 운전, 공운전, 연동 운전 검증 업무 진행' },
+            { content: '고객사의 요청에따른 PLC, HMI 변경작업 및 트러블 슈팅 해결 업무 진행' },
+          ],
+        },
+      ],
+      // image: image3,
+    },
+
+    /*
     {
       title: 'indiego',
       startedAt: '2023-01',
@@ -171,40 +433,7 @@ const project: IProject.Payload = {
       ],
       // image: image1,
     },
-    // {
-    //   title: 'Stackoverflow : 소규모 프로젝트',
-    //   startedAt: '2022-12',
-    //   endedAt: '2023-01',
-    //   where: '클론 코딩 프로젝트 (6인/2주)',
-    //   descriptions: [
-    //     {
-    //       content:
-    //         '[팀장, 백엔드]: Spring Web, Spring Security, Spring data JPA, Mysql, Nginx, AWS(EC2)',
-    //       postImage: image2,
-    //       weight: 'MEDIUM',
-    //       descriptions: [
-    //         { content: '프로젝트 개발상황 및 일정관리' },
-    //         { content: 'Spring Security와 JWT를 활용한 인증,인가 및 권한 설정' },
-    //         { content: 'OAuth2.0 소셜로그인(구글) 구현' },
-    //         { content: '질문,답글 등록,조회,삭제,투표 API 기능구현' },
-    //         { content: '수동 배포환경 구축(EC2,Mysql,Nginx)' },
-    //         {
-    //           content: '[배포링크]:',
-    //           postHref: 'http://stackoverflowpre.p-e.kr',
-    //         },
-    //         {
-    //           content: '[깃헙레포]:',
-    //           postHref: 'https://github.com/MyCatlikesChuru/StackoverflowClone',
-    //         },
-    //         {
-    //           content: '[회고]:',
-    //           postHref: 'https://mycatlikeschuru.github.io/til/2022/12/15/til.html',
-    //         },
-    //       ],
-    //     },
-    //   ],
-    //   image: image2,
-    // },
+    */
   ],
 };
 

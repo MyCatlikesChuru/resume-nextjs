@@ -277,7 +277,7 @@ const project: IProject.Payload = {
     {
       title: '중대형 Z-Stack / Samsung SDI / 미국 인디애나주 코코모',
       startedAt: '2023-08',
-      endedAt: '2025-07',
+      endedAt: '2025-12',
       where: '원통형릴 양음극 극판 노칭&컷팅, Z Stacking, 바인딩 PLC ,HMI 개발 업무 진행.',
       descriptions: [
         {
@@ -303,7 +303,7 @@ const project: IProject.Payload = {
               descriptions: [
                 { content: 'R32MTCPU Motion CPU를 통한 작성 및 테스트' },
                 { content: 'Reel 반경센서, 댄서를 활용한 Feeding 시 보정치 계산' },
-                { content: 'Feeding, Cutting, Press 속도 연산' },
+                { content: 'Roll to Sheet Feeding, Cutting, Press 속도 연산' },
                 { content: 'NG 극판 데이터 트래킹, 상위보고, CASE별 NG 배출 시퀀스 프로그램 작성' },
                 { content: '상부,하부 Reel Auto Change 프로그램 시퀀스 개발' },
               ],
@@ -320,6 +320,15 @@ const project: IProject.Payload = {
             { content: '전기 입출력 I/O, AD, DA 체크 업무 진행' },
             { content: '단동 운전, 공운전, 연동 운전 검증 업무 진행' },
             { content: '고객사의 요청에따른 PLC, HMI 변경작업 및 트러블 슈팅 해결 업무 진행' },
+          ],
+        },
+
+        {
+          content: '설비 양산 대응',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '미국 인디애나주 코코모 StarPlus Energy 공장 양산 안정화 대응 진행' },
+            { content: '양산 진행 중 트러블 슈팅 정리 및 에러 조치 대응' },
           ],
         },
       ],

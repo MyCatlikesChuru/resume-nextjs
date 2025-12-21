@@ -14,7 +14,7 @@ const education: IEducation.Payload = {
       title: '한양사이버대학교',
       subTitle: '기계제어공학과 (재학중)',
       startedAt: '2024-02',
-      endedAt: '2028-02',
+      // endedAt: '2028-02',
     },
   ],
 };

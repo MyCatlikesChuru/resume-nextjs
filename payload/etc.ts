@@ -23,6 +23,11 @@ const etc: IEtc.Payload = {
       endedAt: '2018-12',
     },
     {
+      title: '정보기술자격(ITQ) B등급-아래한글',
+      subTitle: '자격증 취득',
+      startedAt: '2013-08',
+    },
+    {
       title: '전자기기기능사',
       subTitle: '자격증 취득',
       startedAt: '2013-07',

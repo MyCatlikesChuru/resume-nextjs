@@ -11,7 +11,8 @@ const experience: IExperience.Payload = {
       // endedAt: '2018-08',
       descriptions: [
         '자동화 공정 프로그램(PLC) 및 HMI 설계, 테스트 업무',
-        '2차전지 양음극 Unwinder Cutting, Feeding, Z-Stack 설비 제어 담당',
+        '2차전지 양극,음극 Unwinder Cutting, Feeding, Z-Stack 설비 제어 담당',
+        '2차전지 Roll to Roll 양극,음극 Sliter 설비 제어 담당',
       ],
       // skillKeywords: ['Node.js', 'MySQL', 'AWS'],
     },

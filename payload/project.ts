@@ -1,9 +1,10 @@
 import { IProject } from '../component/project/IProject';
 
-const video1 = '/asset/gemi.mp4';
-import image1 from '../asset/stack1.png';
-//import image2 from '../asset/stack2.png';
-//import image3 from '../asset/stack3.png';
+// const video1 = '/asset/gemi.mp4';
+const video1 = '/resume-nextjs/asset/gemi.mp4';
+// import image1 from '../asset/stack1.png';
+// import image2 from '../asset/stack2.png';
+// import image3 from '../asset/stack3.png';
 
 const project: IProject.Payload = {
   disable: false,
@@ -322,7 +323,10 @@ const project: IProject.Payload = {
             { content: 'I/O Check 및 주변기기(EPC,BCR,Weidmüller,Ring Blow,각종센서) 셋팅 진행' },
             { content: '단동 운전 > 공운전 > 자동 운전 프로그램 제어 대응' },
             { content: 'IBO > TBO > FBO > PRE TQR > TQR > SOP 검수 대응' },
-            { content: 'Model Change(기종변경) 프로그램 대응, Feeding Tact-time 단축(0.5s > 0.45s) 프로그램 대응' },
+            {
+              content:
+                'Model Change(기종변경) 프로그램 대응, Feeding Tact-time 단축(0.5s > 0.45s) 프로그램 대응',
+            },
             { content: '고객사의 요청 및 개조 프로그램 대응, Punch List 조치 작업 진행' },
           ],
         },
@@ -349,7 +353,6 @@ const project: IProject.Payload = {
           // postImage: image3,
           weight: 'MEDIUM',
           descriptions: [
-        
             { content: '전고체 레이저 가공 운영 및 Recipe 관리 컨셉 제안' },
             { content: '설비 전체 PLC, HMI 전체 설계 및 SET-UP 진행' },
             { content: 'Punch List 협의 및 추후 기능 추가 건 관련 프로그램 개발 대응' },
@@ -362,23 +365,32 @@ const project: IProject.Payload = {
       title: 'Gemini 3D Simulator 혁신 과제 / Philenergy / 한국 오산',
       startedAt: '2026-02',
       endedAt: '2026-06',
-      where: 'GT Designer3 - Gx Works3 - MT Developer2 - Gemini 3D Simulator 연동 및 개발 업무 진행',
+      where:
+        'GT Designer3 - Gx Works3 - MT Developer2 - Gemini 3D Simulator 연동 및 개발 업무 진행',
       descriptions: [
         {
           content: '자사 프로젝트 Tesla向 365Ah ReelCut Roll to Sheet Digital Twin ',
-          //postImage: image1,
+          // postImage: image1,
           // postVideo: video1,
           weight: 'MEDIUM',
           descriptions: [
-            { content: '프로젝트 헤더로 참여, 업무 방향 및 프로젝트 분배, 초기 컨셉 및 협업 방법 고안' },
-            { content: '미쓰비시 Digital Twin 3D 시뮬레이션 프로젝트 데이터 맵 설계 및 모델링 전체 작업' },
+            {
+              content:
+                '프로젝트 헤더로 참여, 업무 방향 및 프로젝트 분배, 초기 컨셉 및 협업 방법 고안',
+            },
+            {
+              content:
+                '미쓰비시 Digital Twin 3D 시뮬레이션 프로젝트 데이터 맵 설계 및 모델링 전체 작업',
+            },
             { content: '사내 프로젝트 기반 Roll to Sheet 설비 시뮬레이팅 시연' },
             {
               content: 'GOT & MT Developer2 ↔ Works3 ↔ Gemini 시뮬레이션 연동 영상',
-               descriptions: [
-                { content: '기술 교육용으로 제작한 Servo 2축, 실린더 2개 원점, 자동운전 기초 시연 영상',
+              descriptions: [
+                {
+                  content:
+                    '기술 교육용으로 제작한 Servo 2축, 실린더 2개 원점, 자동운전 기초 시연 영상',
                   postVideo: video1, // 여기로 이동
-                }
+                },
               ],
             },
           ],

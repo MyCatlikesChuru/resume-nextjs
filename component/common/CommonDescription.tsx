@@ -60,7 +60,52 @@ function DescriptionRecursion({
 }
 
 function Description({ description }: PropsWithChildren<{ description: IRow.Description }>) {
-  const { content, href, postImage, postHref, weight } = description;
+  // 기존
+  // const { content, href, postImage, postHref, weight } = description;
+  // 변경
+  const { content, href, postImage, postVideo, postHref, weight } = description;
+
+  /* 기존
+  const component = (() => {
+    if (href && postImage) {
+      return (
+        <li style={getFontWeight(weight)}>
+          <HrefTargetBlank url={href} text={content} /> <img src={postImage} alt={postImage} />
+        </li>
+      );
+    }
+    if (href) {
+      return (
+        <li style={getFontWeight(weight)}>
+          <HrefTargetBlank url={href} text={content} />
+        </li>
+      );
+    }
+    if (postHref && postImage) {
+      return (
+        <li style={getFontWeight(weight)}>
+          {content} <HrefTargetBlank url={postHref} text={postHref} />{' '}
+          <img src={postImage} alt={postImage} />
+        </li>
+      );
+    }
+    if (postHref) {
+      return (
+        <li style={getFontWeight(weight)}>
+          {content} <HrefTargetBlank url={postHref} text={postHref} />
+        </li>
+      );
+    }
+    if (postImage) {
+      return (
+        <li style={getFontWeight(weight)}>
+          {content} <br /> <img src={postImage} alt={postImage} />
+        </li>
+      );
+    }
+    return <li style={getFontWeight(weight)}>{content}</li>;
+  })();
+  */
 
   const component = (() => {
     if (href && postImage) {
@@ -99,6 +144,34 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
         </li>
       );
     }
+
+    // 추가: MP4 동영상 출력
+    if (postVideo) {
+      return (
+        <li style={getFontWeight(weight)}>
+          {content}
+          <video
+            src={postVideo}
+            controls
+            autoPlay
+            muted
+            loop
+            playsInline
+            style={{
+              display: 'block',
+              width: '100%',
+              maxWidth: '600px',
+              height: 'auto',
+              marginTop: '10px',
+              borderRadius: '8px',
+            }}
+          >
+            브라우저가 동영상 재생을 지원하지 않습니다.
+          </video>
+        </li>
+      );
+    }
+
     return <li style={getFontWeight(weight)}>{content}</li>;
   })();
 

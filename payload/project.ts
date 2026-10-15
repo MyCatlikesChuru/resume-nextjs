@@ -1,7 +1,9 @@
 import { IProject } from '../component/project/IProject';
-// import image1 from '../asset/stack1.png';
-// import image2 from '../asset/stack2.png';
-// import image3 from '../asset/stack3.png';
+
+const video1 = '/asset/gemi.mp4';
+import image1 from '../asset/stack1.png';
+//import image2 from '../asset/stack2.png';
+//import image3 from '../asset/stack3.png';
 
 const project: IProject.Payload = {
   disable: false,
@@ -238,8 +240,8 @@ const project: IProject.Payload = {
     // ***************************************************
     {
       title: 'CELL03 / Doosan Fuel Cell / 한국 익산',
-      startedAt: '2021-02',
-      endedAt: '2021-10',
+      startedAt: '2021-10',
+      endedAt: '2021-05',
       where: '두산 퓨어셀 수소 CELL 재도포, 반송, 적재 공정 PLC ,HMI 개발 업무 진행.',
       descriptions: [
         {
@@ -277,7 +279,7 @@ const project: IProject.Payload = {
     {
       title: '중대형 Z-Stack / Samsung SDI / 미국 인디애나주 코코모',
       startedAt: '2023-08',
-      endedAt: '2025-12',
+      endedAt: '2025-08',
       where: '원통형릴 양음극 극판 노칭&컷팅, Z Stacking, 바인딩 PLC ,HMI 개발 업무 진행.',
       descriptions: [
         {
@@ -288,13 +290,13 @@ const project: IProject.Payload = {
             {
               content: '설비 內 기기 셋팅 및 프로그램 작업',
               descriptions: [
-                { content: 'EL EPC 셋팅' },
-                { content: 'Becker Ring Blow 셋팅' },
-                { content: 'Keyence BCR SR-1000 셋팅' },
-                { content: 'Keyence GT2-70 두께감지 셋팅' },
-                { content: 'CAS CI150 무게감지 셋팅' },
-                { content: 'SICK OD2 거리감지 셋팅' },
-                { content: 'Weidmüller AD/DA 셋팅' },
+                { content: 'EL EPC I/F 프로그램' },
+                { content: 'Becker Ring Blow 제어 프로그램' },
+                { content: 'Keyence BCR SR-1000 제어 프로그램' },
+                { content: 'Keyence GT2-70 두께감지 제어 프로그램' },
+                { content: 'CAS CI150 무게감지 제어 프로그램' },
+                { content: 'SICK OD2 거리계산 제어 프로그램' },
+                { content: 'Weidmüller AD/DA 송/수신 프로그램' },
               ],
             },
 
@@ -308,7 +310,7 @@ const project: IProject.Payload = {
                 { content: '상부,하부 Reel Auto Change 프로그램 시퀀스 개발' },
               ],
             },
-            { content: 'Vision, PMAC(Z-Stack Unit) 설비 운용 I/F 프로그램 개선 개발건 추가 작업' },
+            { content: 'Vision, PMAC(Z-Stack Unit) 설비 운용 I/F 프로그램 개발' },
             { content: '(바인딩 설비)J/R 본딩, 테이핑 설비 시퀀스 프로그램 개발' },
           ],
         },
@@ -317,9 +319,11 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: '국내&미주 설비 108대 SET-UP업무 진행 / 설비 1대당 PLC 3ea, Touch 5ea' },
-            { content: '전기 입출력 I/O, AD, DA 체크 업무 진행' },
-            { content: '단동 운전, 공운전, 연동 운전 검증 업무 진행' },
-            { content: '고객사의 요청에따른 PLC, HMI 변경작업 및 트러블 슈팅 해결 업무 진행' },
+            { content: 'I/O Check 및 주변기기(EPC,BCR,Weidmüller,Ring Blow,각종센서) 셋팅 진행' },
+            { content: '단동 운전 > 공운전 > 자동 운전 프로그램 제어 대응' },
+            { content: 'IBO > TBO > FBO > PRE TQR > TQR > SOP 검수 대응' },
+            { content: 'Model Change(기종변경) 프로그램 대응, Feeding Tact-time 단축(0.5s > 0.45s) 프로그램 대응' },
+            { content: '고객사의 요청 및 개조 프로그램 대응, Punch List 조치 작업 진행' },
           ],
         },
 
@@ -333,6 +337,54 @@ const project: IProject.Payload = {
         },
       ],
       // image: image3,
+    },
+    {
+      title: '전고체 Ablation 설비 / Samsung SDI / 한국 수원',
+      startedAt: '2025-08',
+      endedAt: '2026-02',
+      where: '극판 공급 및 Laser 가공 시퀀스, Recipe 관리 PLC, HMI 개발 업무 진행.',
+      descriptions: [
+        {
+          content: 'PLC, HMI 설계',
+          // postImage: image3,
+          weight: 'MEDIUM',
+          descriptions: [
+        
+            { content: '전고체 레이저 가공 운영 및 Recipe 관리 컨셉 제안' },
+            { content: '설비 전체 PLC, HMI 전체 설계 및 SET-UP 진행' },
+            { content: 'Punch List 협의 및 추후 기능 추가 건 관련 프로그램 개발 대응' },
+          ],
+        },
+      ],
+      // image: image3,
+    },
+    {
+      title: 'Gemini 3D Simulator 혁신 과제 / Philenergy / 한국 오산',
+      startedAt: '2026-02',
+      endedAt: '2026-06',
+      where: 'GT Designer3 - Gx Works3 - MT Developer2 - Gemini 3D Simulator 연동 및 개발 업무 진행',
+      descriptions: [
+        {
+          content: '자사 프로젝트 Tesla向 365Ah ReelCut Roll to Sheet Digital Twin ',
+          //postImage: image1,
+          // postVideo: video1,
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '프로젝트 헤더로 참여, 업무 방향 및 프로젝트 분배, 초기 컨셉 및 협업 방법 고안' },
+            { content: '미쓰비시 Digital Twin 3D 시뮬레이션 프로젝트 데이터 맵 설계 및 모델링 전체 작업' },
+            { content: '사내 프로젝트 기반 Roll to Sheet 설비 시뮬레이팅 시연' },
+            {
+              content: 'GOT & MT Developer2 ↔ Works3 ↔ Gemini 시뮬레이션 연동 영상',
+               descriptions: [
+                { content: '기술 교육용으로 제작한 Servo 2축, 실린더 2개 원점, 자동운전 기초 시연 영상',
+                  postVideo: video1, // 여기로 이동
+                }
+              ],
+            },
+          ],
+        },
+      ],
+      // image: image1,
     },
 
     /*

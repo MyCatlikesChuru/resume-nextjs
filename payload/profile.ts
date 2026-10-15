@@ -30,10 +30,10 @@ const profile: IProfile.Payload = {
       link: 'https://github.com/MyCatlikesChuru',
       icon: faGithub,
     },
-    {
-      link: 'https://blog.naver.com/dhfif718',
-      icon: faBlog,
-    },
+    //{
+    //  link: 'https://blog.naver.com/dhfif718',
+    //  icon: faBlog,
+    //},
     {
       link: 'https://mycatlikeschuru.github.io',
       icon: faBlog,

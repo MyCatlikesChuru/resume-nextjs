@@ -1,6 +1,11 @@
 import { IProject } from '../component/project/IProject';
 
-// const video1 = '/asset/gemi.mp4';
+/* Video 기능추가, 사용 방법 참고
+  const video1 = '/asset/gemi.mp4'; // 로컬환경에서 작업할떄 보는법
+  const video1 = '/resume-nextjs/asset/gemi.mp4'; // 실제배포할때 이 경로로 배포해야함!
+  Video 파일 경로는 public/asset 폴더에 넣으면됨
+*/
+
 const video1 = '/resume-nextjs/asset/gemi.mp4';
 // import image1 from '../asset/stack1.png';
 // import image2 from '../asset/stack2.png';
@@ -278,7 +283,7 @@ const project: IProject.Payload = {
 
     // ***************************************************
     {
-      title: '중대형 Z-Stack / Samsung SDI / 미국 인디애나주 코코모',
+      title: '3.5G 중대형 Z-Stack 152Ah / Samsung SDI / 미국 인디애나주 코코모',
       startedAt: '2023-08',
       endedAt: '2025-08',
       where: '원통형릴 양음극 극판 노칭&컷팅, Z Stacking, 바인딩 PLC ,HMI 개발 업무 진행.',
@@ -342,6 +347,9 @@ const project: IProject.Payload = {
       ],
       // image: image3,
     },
+
+    // ***************************************************
+
     {
       title: '전고체 Ablation 설비 / Samsung SDI / 한국 수원',
       startedAt: '2025-08',
@@ -361,6 +369,9 @@ const project: IProject.Payload = {
       ],
       // image: image3,
     },
+
+    // ***************************************************
+
     {
       title: 'Gemini 3D Simulator 혁신 과제 / Philenergy / 한국 오산',
       startedAt: '2026-02',
@@ -398,6 +409,41 @@ const project: IProject.Payload = {
       ],
       // image: image1,
     },
+
+    // ***************************************************
+
+    {
+      title: '3.5G 중대형 Z-Stack 273Ah / Samsung SDI / 미국 인디애나주 코코모',
+      startedAt: '2026-06',
+      endedAt: '2026-10',
+      where:
+        '원통형릴 양음극 극판 노칭&컷팅, Z Stacking, 본딩+테이핑+검사 유닛 PLC ,HMI 개발 업무 진행',
+      descriptions: [
+        {
+          content: 'PLC, HMI 설계',
+          // postImage: image3,
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                '기존 152Ah STL1.5/2.0 모델 ESS 모델로 개조 작업 시 필요한 프로그램 수정 진행',
+            },
+            {
+              content:
+                'IBO > TBO > FBO 제어 검수 준비 및 대응 / Pre-TQR, TQR, SOP(양산) 제어 검수 준비 및 대응',
+            },
+            {
+              content:
+                '원통형 릴 피딩 제어 프로그램 개선 및 변경 작업 진행 (두께 비율 계산, 댄서 보정 비율, 압력 보정 비율 등)',
+            },
+            { content: 'Punch List 협의 및 추후 기능 추가 건 관련 프로그램 개발 대응' },
+          ],
+        },
+      ],
+      // image: image3,
+    },
+
+    // ***************************************************
 
     /*
     {

@@ -445,113 +445,23 @@ const project: IProject.Payload = {
 
     // ***************************************************
 
-    /*
+    /* 하이퍼링크 사용법
     {
-      title: 'indiego',
-      startedAt: '2023-01',
-      endedAt: '2023-02',
-      where: '우리동네 공연 티켓팅 서비스 (프론트엔드 3명 / 백엔드 3명)',
-      descriptions: [
-        {
-          content: '백엔드',
-          postImage: image1,
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: '회원도메인,공연도메인 댓글, 날짜별,지역별 조회 API 구현' },
-            { content: '카오맵 현재위치 좌표값 조회 API 구현' },
-            {
-              content: 'Spring Security와 JWT를 활용한 인증,인가 및 권한 설정작업',
-              descriptions: [
-                {
-                  content: 'Spring Security 기초 지식정리 블로깅',
-                  href: 'https://mycatlikeschuru.github.io/til/2022/11/18/til.html',
-                },
-                {
-                  content: 'Spring Security 인증절차 지식정리 블로깅',
-                  href: 'https://mycatlikeschuru.github.io/til/2022/11/21/til.html',
-                },
-                {
-                  content: 'Spring Security 권한부여 지식정리 블로깅',
-                  href: 'https://mycatlikeschuru.github.io/til/2022/11/22/til.html',
-                },
-                {
-                  content: 'Spring Security + JWT를 사용한 인증 블로깅',
-                  href: 'https://mycatlikeschuru.github.io/til/2022/11/24/til.html',
-                },
-              ],
-            },
-            {
-              content: 'OAuth2.0 소셜로그인(구글,카카오) 구현',
-              descriptions: [
-                {
-                  content: 'OAuth2.0 인증 기초 지식 정리 블로깅',
-                  href: 'https://mycatlikeschuru.github.io/til/2022/11/25/til.html',
-                },
-                {
-                  content: 'OAuth2.0 다양한 Vendor 애플리케이션 인증 블로깅',
-                  href: 'https://mycatlikeschuru.github.io/til/2022/11/28/til.html',
-                },
-              ],
-            },
-            {
-              content: 'Redis 캐쉬서버를 이용한 JWT Refresh Token 관리 프로그램 구현',
-              descriptions: [
-                {
-                  content: 'Redis JWT Refresh Token 관리 및 재발행 블로깅',
-                  href: 'https://mycatlikeschuru.github.io/db/2023/01/14/db-redis.html',
-                },
-              ],
-            },
-            {
-              content: 'AWS S3 버킷을 이용한 이미지 업로드 프로그램 구현 및 추상화',
-              descriptions: [
-                {
-                  content: 'AWS S3 FileUpload 관리 블로깅',
-                  href:
-                    'https://mycatlikeschuru.github.io/spring/2023/01/15/spring-fileupload.html',
-                },
-              ],
-            },
-            {
-              content:
-                '공연태그 기능 API 추가 및 태그를 사용하는 공연조회 API GraphQL 적용하여 호출하도록 변경',
-              descriptions: [
-                {
-                  content: 'GraphQL 적용 공부 및 연습용레포지토리 정리 블로깅',
-                  href: 'https://mycatlikeschuru.github.io/spring/2023/04/13/spring-graphql.html',
-                },
-                {
-                  content: '태그 기능 도입시 발생한 JPA N+1 문제 해결 블로깅',
-                  href:
-                    'https://mycatlikeschuru.github.io/spring/2023/04/11/spring-jpanplusone.html',
-                },
-              ],
-            },
-            {
-              content:
-                '베타베스트 기간을 정해 유저의 서비스경험을 듣고자 주변 지인들에게 사용자 설문경험 조사 및 피드백 반영',
-            },
-            {
-              content:
-                '[기술스택]: Spring Web, Spring Security, Spring data JPA, Querydsl, Mysql, Redis, AWS(EC2,RDS,S3,Code Deploy), Git Actions',
-            },
-            {
-              content: '[배포링크]:',
-              postHref: 'http://indiego.site',
-            },
-            {
-              content: '[노션링크]:',
-              postHref: 'https://www.notion.so/indiego-db411e7d122a44df9db815e63f121d0f?pvs=4',
-            },
-            {
-              content: '[깃헙레포]:',
-              postHref: 'https://github.com/MyCatlikesChuru/indiego',
-            },
-          ],
-        },
-      ],
-      // image: image1,
-    },
+      {
+        content:
+          '공연태그 기능 API 추가 및 태그를 사용하는 공연조회 API GraphQL 적용하여 호출하도록 변경',
+        descriptions: [
+          {
+            content: 'GraphQL 적용 공부 및 연습용레포지토리 정리 블로깅',
+            href: 'https://mycatlikeschuru.github.io/spring/2023/04/13/spring-graphql.html',
+          },
+          {
+            content: '태그 기능 도입시 발생한 JPA N+1 문제 해결 블로깅',
+            href:
+              'https://mycatlikeschuru.github.io/spring/2023/04/11/spring-jpanplusone.html',
+          },
+        ],
+      },
     */
   ],
 };
